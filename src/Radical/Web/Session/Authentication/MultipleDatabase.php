@@ -2,7 +2,6 @@
 namespace Radical\Web\Session\Authentication\Source;
 
 use Radical\Database\DynamicTypes\Password;
-use Radical\Database\Model\TableReferenceInstance;
 
 class MultipleDatabase extends NullSource {
 	const FIELD_USERNAME = '*username';
@@ -31,7 +30,7 @@ class MultipleDatabase extends NullSource {
 					if($password instanceof Password){
 						if($password->Compare($inPassword)){
 							if($res){
-								\Web\Session::$data['user'] = $res;
+								\Radical\Web\Session::$data['user'] = $res;
 								return true;
 							}
 						}

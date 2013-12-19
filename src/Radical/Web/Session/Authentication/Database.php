@@ -1,7 +1,6 @@
 <?php
 namespace Radical\Web\Session\Authentication\Source;
 
-use Radical\Database\DynamicTypes\Password;
 use Radical\Database\Model\TableReferenceInstance;
 
 class Database extends MultipleDatabase {
