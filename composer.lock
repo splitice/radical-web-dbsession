@@ -103,6 +103,37 @@
             "time": "2013-12-19 08:24:29"
         },
         {
+            "name": "splitice/radical-file",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/splitice/radical-file.git",
+                "reference": "43a83be2fd30cfe0292a2d828507687a5a245fa7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/splitice/radical-file/zipball/43a83be2fd30cfe0292a2d828507687a5a245fa7",
+                "reference": "43a83be2fd30cfe0292a2d828507687a5a245fa7",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4",
+                "splitice/radical-common": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Radical": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "radical-php",
+            "keywords": [
+                "radical-php"
+            ],
+            "time": "2013-12-19 08:23:41"
+        },
+        {
             "name": "splitice/radical-html",
             "version": "dev-master",
             "source": {
@@ -133,23 +164,58 @@
             "time": "2013-12-19 08:08:16"
         },
         {
+            "name": "splitice/radical-net",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/splitice/radical-net.git",
+                "reference": "52af5c2a5901bee0ce5e2b46f0a4cc498c635f6e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/splitice/radical-net/zipball/52af5c2a5901bee0ce5e2b46f0a4cc498c635f6e",
+                "reference": "52af5c2a5901bee0ce5e2b46f0a4cc498c635f6e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4",
+                "splitice/radical-basic": "dev-master",
+                "splitice/radical-common": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Radical": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "radical-net",
+            "keywords": [
+                "radical-php"
+            ],
+            "time": "2013-12-19 08:22:47"
+        },
+        {
             "name": "splitice/radical-web",
             "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/splitice/radical-web.git",
-                "reference": "b36bf006774fef3b72683c64afff02e8dc421129"
+                "reference": "9b094ef72cfd78bf11172c1ae1f94e2838d9c6b5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/splitice/radical-web/zipball/b36bf006774fef3b72683c64afff02e8dc421129",
-                "reference": "b36bf006774fef3b72683c64afff02e8dc421129",
+                "url": "https://api.github.com/repos/splitice/radical-web/zipball/9b094ef72cfd78bf11172c1ae1f94e2838d9c6b5",
+                "reference": "9b094ef72cfd78bf11172c1ae1f94e2838d9c6b5",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.4",
+                "splitice/radical-basic": "dev-master",
                 "splitice/radical-common": "dev-master",
-                "splitice/radical-html": "dev-master"
+                "splitice/radical-file": "dev-master",
+                "splitice/radical-html": "dev-master",
+                "splitice/radical-net": "dev-master"
             },
             "type": "library",
             "autoload": {
@@ -162,7 +228,7 @@
             "keywords": [
                 "radical-php"
             ],
-            "time": "2013-12-19 08:26:15"
+            "time": "2013-12-19 08:54:35"
         },
         {
             "name": "symfony/filesystem",
