@@ -11,12 +11,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/splitice/radical-basic.git",
-                "reference": "81b8bd282421516414674d541faaaa41bd39da18"
+                "reference": "b41cccfc159f3a72c389c256fdabdfe56a010a9f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/splitice/radical-basic/zipball/81b8bd282421516414674d541faaaa41bd39da18",
-                "reference": "81b8bd282421516414674d541faaaa41bd39da18",
+                "url": "https://api.github.com/repos/splitice/radical-basic/zipball/b41cccfc159f3a72c389c256fdabdfe56a010a9f",
+                "reference": "b41cccfc159f3a72c389c256fdabdfe56a010a9f",
                 "shasum": ""
             },
             "require": {
@@ -37,7 +37,7 @@
             "keywords": [
                 "radical-php"
             ],
-            "time": "2013-12-12 10:11:52"
+            "time": "2013-12-20 05:08:04"
         },
         {
             "name": "splitice/radical-common",
@@ -45,12 +45,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/splitice/radical-common.git",
-                "reference": "35c18185ad3dc981607a3397ea534ed592e588d0"
+                "reference": "3ce1b174cc7fcc1116b4c3b71835f1a6dff28d3b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/splitice/radical-common/zipball/35c18185ad3dc981607a3397ea534ed592e588d0",
-                "reference": "35c18185ad3dc981607a3397ea534ed592e588d0",
+                "url": "https://api.github.com/repos/splitice/radical-common/zipball/3ce1b174cc7fcc1116b4c3b71835f1a6dff28d3b",
+                "reference": "3ce1b174cc7fcc1116b4c3b71835f1a6dff28d3b",
                 "shasum": ""
             },
             "require": {
@@ -68,7 +68,7 @@
             "keywords": [
                 "radical-php"
             ],
-            "time": "2013-12-19 08:20:14"
+            "time": "2013-12-24 10:39:16"
         },
         {
             "name": "splitice/radical-db",
@@ -76,12 +76,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/splitice/radical-db.git",
-                "reference": "ebff841ebed320dc958bdee57dbcaaa7dfcc8dc1"
+                "reference": "415937fba77465cb2626a08d8fbb5c8672733e13"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/splitice/radical-db/zipball/ebff841ebed320dc958bdee57dbcaaa7dfcc8dc1",
-                "reference": "ebff841ebed320dc958bdee57dbcaaa7dfcc8dc1",
+                "url": "https://api.github.com/repos/splitice/radical-db/zipball/415937fba77465cb2626a08d8fbb5c8672733e13",
+                "reference": "415937fba77465cb2626a08d8fbb5c8672733e13",
                 "shasum": ""
             },
             "require": {
@@ -100,7 +100,7 @@
             "keywords": [
                 "radical-php"
             ],
-            "time": "2013-12-19 08:24:29"
+            "time": "2013-12-24 07:34:32"
         },
         {
             "name": "splitice/radical-file",
@@ -108,12 +108,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/splitice/radical-file.git",
-                "reference": "43a83be2fd30cfe0292a2d828507687a5a245fa7"
+                "reference": "c75a7b1fd7f8cf3c14102d89c72baf1c9324216e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/splitice/radical-file/zipball/43a83be2fd30cfe0292a2d828507687a5a245fa7",
-                "reference": "43a83be2fd30cfe0292a2d828507687a5a245fa7",
+                "url": "https://api.github.com/repos/splitice/radical-file/zipball/c75a7b1fd7f8cf3c14102d89c72baf1c9324216e",
+                "reference": "c75a7b1fd7f8cf3c14102d89c72baf1c9324216e",
                 "shasum": ""
             },
             "require": {
@@ -131,7 +131,7 @@
             "keywords": [
                 "radical-php"
             ],
-            "time": "2013-12-19 08:23:41"
+            "time": "2013-12-19 10:25:24"
         },
         {
             "name": "splitice/radical-html",
@@ -169,12 +169,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/splitice/radical-net.git",
-                "reference": "52af5c2a5901bee0ce5e2b46f0a4cc498c635f6e"
+                "reference": "7bd66f274aada53e56a0b9b05dc83ad3d705e334"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/splitice/radical-net/zipball/52af5c2a5901bee0ce5e2b46f0a4cc498c635f6e",
-                "reference": "52af5c2a5901bee0ce5e2b46f0a4cc498c635f6e",
+                "url": "https://api.github.com/repos/splitice/radical-net/zipball/7bd66f274aada53e56a0b9b05dc83ad3d705e334",
+                "reference": "7bd66f274aada53e56a0b9b05dc83ad3d705e334",
                 "shasum": ""
             },
             "require": {
@@ -193,7 +193,7 @@
             "keywords": [
                 "radical-php"
             ],
-            "time": "2013-12-19 08:22:47"
+            "time": "2013-12-24 07:34:04"
         },
         {
             "name": "splitice/radical-web",
@@ -201,12 +201,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/splitice/radical-web.git",
-                "reference": "9b094ef72cfd78bf11172c1ae1f94e2838d9c6b5"
+                "reference": "1fc26149c7e83cccfa7cda2bca415090abd1191e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/splitice/radical-web/zipball/9b094ef72cfd78bf11172c1ae1f94e2838d9c6b5",
-                "reference": "9b094ef72cfd78bf11172c1ae1f94e2838d9c6b5",
+                "url": "https://api.github.com/repos/splitice/radical-web/zipball/1fc26149c7e83cccfa7cda2bca415090abd1191e",
+                "reference": "1fc26149c7e83cccfa7cda2bca415090abd1191e",
                 "shasum": ""
             },
             "require": {
@@ -228,7 +228,7 @@
             "keywords": [
                 "radical-php"
             ],
-            "time": "2013-12-19 08:54:35"
+            "time": "2013-12-24 07:33:49"
         },
         {
             "name": "symfony/filesystem",
@@ -284,12 +284,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/PropertyAccess.git",
-                "reference": "b309619483ff7958a9d698b00a0c61ad93c2f16c"
+                "reference": "9935cedf9a7d089346475a4805059923fcf15c52"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/PropertyAccess/zipball/b309619483ff7958a9d698b00a0c61ad93c2f16c",
-                "reference": "b309619483ff7958a9d698b00a0c61ad93c2f16c",
+                "url": "https://api.github.com/repos/symfony/PropertyAccess/zipball/9935cedf9a7d089346475a4805059923fcf15c52",
+                "reference": "9935cedf9a7d089346475a4805059923fcf15c52",
                 "shasum": ""
             },
             "require": {
@@ -333,7 +333,7 @@
                 "property path",
                 "reflection"
             ],
-            "time": "2013-11-24 20:17:07"
+            "time": "2013-12-23 14:13:24"
         },
         {
             "name": "symfony/translation",
