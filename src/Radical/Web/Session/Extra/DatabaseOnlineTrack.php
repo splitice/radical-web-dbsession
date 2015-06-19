@@ -1,8 +1,7 @@
 <?php
 namespace Radical\Web\Session\Handler;
-use Radical\Web\Session\ModuleBase;
-
 use Radical\Web\Session;
+use Radical\Web\Session\ModuleBase;
 
 class DatabaseOnlineTrack extends ModuleBase {
 	function __construct(){
