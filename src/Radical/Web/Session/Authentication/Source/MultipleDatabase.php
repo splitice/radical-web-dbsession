@@ -15,15 +15,16 @@ class MultipleDatabase extends NullSource {
 	protected function getFields($username){
 		return array(static::FIELD_USERNAME=>$username);
 	}
+	protected function getUserObject($table, $username){
+		$class = $table->getClass();
+		$data = $this->getFields($username);
+
+		return $class::fromFields($data);
+	}
 
 	function login($username,$inPassword){
 		foreach($this->tables as $table){
-			$class = $table->getClass();
-	
-			$data = $this->getFields($username);
-	
-			$res = $class::fromFields($data);
-
+			$res = $this->getUserObject($table, $username);
 			if($res){
 				$password = $res->getSQLField(static::FIELD_PASSWORD);
 				if($password){
