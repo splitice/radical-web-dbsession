@@ -22,14 +22,14 @@ class MultipleDatabase extends NullSource {
 		return $class::fromFields($data);
 	}
 
-	function login($username,$inPassword){
+	function login($username, $password, ...$args){
 		foreach($this->tables as $table){
 			$res = $this->getUserObject($table, $username);
 			if($res){
-				$password = $res->getSQLField(static::FIELD_PASSWORD);
-				if($password){
-					if($password instanceof Password){
-						if($password->Compare($inPassword)){
+				$pass = $res->getSQLField(static::FIELD_PASSWORD);
+				if($pass){
+					if($pass instanceof Password){
+						if($pass->Compare($password)){
 							if($res){
 								\Radical\Web\Session::$data['user'] = $res;
 								return true;
